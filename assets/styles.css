@@ -10,12 +10,19 @@ header {
     background-color: #ffa4d4;
     padding: 10px;
     text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 footer {
     background-color: #ffa4d4;
     padding: 10px;
     font-size: smaller;
+}
+
+nav {
+    display: inline;
 }
 
 #main-panel {
@@ -29,4 +36,11 @@ figure.centered {
 
 figure.centered>figcaption {
     font-size: smaller;
+}
+
+#contact-form {
+    background-color: #96e593;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
 }

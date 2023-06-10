@@ -7,15 +7,56 @@
     </head>
     <body>
         <header>
-            <h1>Contact me!</h1>
+            <h1>Giancarlo Whitaker</h1>
+            <nav>
+                <a href="#about">About</a> |
+                <a href="#projects">Projects</a> |
+                <a href="#contact">Contact</a>
+            </nav>
         </header>
 
         <section id="main-panel">
             <figure class="centered">
-                <img src="./assets/image-3.png">
+                <img src="./assets/image-3.png" alt="A giant number three">
                 <figcaption>Yours truly.</figcaption>
             </figure>
-            <p style="text-align: center;">Want to get in touch?  Use the form below!</p>
+            <p style="text-align: center;">Want to get in touch?  Use the form <a href="#contact">below</a>!</p>
+            <section>
+                <h2 id="about">About</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et enim vel erat varius
+                    tincidunt ac non est. In in volutpat nisi. Aenean finibus massa sed tempus egestas.
+                    Maecenas erat velit, rhoncus sed velit et, elementum aliquam lacus. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Phasellus varius tortor nisi, ut ullamcorper
+                    velit suscipit sit amet. Nulla elementum mi iaculis, porta enim at, rhoncus tortor.
+                    Fusce sit amet tempor nulla. Maecenas auctor eros felis, mattis aliquet elit tempus in.
+                    Proin tincidunt quam quam, at laoreet sapien lobortis in. Nulla sed aliquet libero.
+                    Praesent ac volutpat enim, et molestie velit. Quisque molestie elit eget tortor sagittis
+                    vehicula.</p>
+            </section>
+            <section>
+                <h2 id="projects">Projects</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et enim vel erat varius
+                    tincidunt ac non est. In in volutpat nisi. Aenean finibus massa sed tempus egestas.
+                    Maecenas erat velit, rhoncus sed velit et, elementum aliquam lacus. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Phasellus varius tortor nisi, ut ullamcorper
+                    velit suscipit sit amet. Nulla elementum mi iaculis, porta enim at, rhoncus tortor.
+                    Fusce sit amet tempor nulla. Maecenas auctor eros felis, mattis aliquet elit tempus in.
+                    Proin tincidunt quam quam, at laoreet sapien lobortis in. Nulla sed aliquet libero.
+                    Praesent ac volutpat enim, et molestie velit. Quisque molestie elit eget tortor sagittis
+                    vehicula.</p>
+            </section>
+            <section id="contact-form">
+                <h2 id="contact">Contact me!</h2>
+                <form action="">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <br><br>
+                    <input type="submit" value="Send!">
+                </form>
+            </section>
         </section>
 
         <footer>
