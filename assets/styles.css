@@ -1,0 +1,32 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #a4d4ff;
+}
+
+header {
+    background-color: #ffa4d4;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #ffa4d4;
+    padding: 10px;
+    font-size: smaller;
+}
+
+#main-panel {
+    background-color: #d4ffa4;
+    padding: 10px;
+}
+
+figure.centered {
+    text-align: center;
+}
+
+figure.centered>figcaption {
+    font-size: smaller;
+}
