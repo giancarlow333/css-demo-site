@@ -10,7 +10,8 @@ header {
     background-color: #ffa4d4;
     padding: 10px;
     text-align: center;
-    position: fixed;
+    position: sticky;
+    /* position: sticky is another option */
     top: 0;
     width: 100%;
 }
